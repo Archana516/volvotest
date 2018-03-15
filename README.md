@@ -1,7 +1,7 @@
 # volvotest
 This Application has been developed using SpringBoot 2.0 JPA and  JSF PrimeFaces and Spring Data
 
-#Execution Steps
+# Execution Steps
 
 We can setup the code by cloning the project in the eclipse environment
 
