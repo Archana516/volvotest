@@ -27,6 +27,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
     private User user = new User();
+    
     public String save() {
     	userRepository.save(user);
         return "/user-list.xhtml?faces-redirect=true";

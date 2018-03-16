@@ -10,10 +10,10 @@
             <p:panel header="User Details">
                 <h:panelGrid columns="1">
                     <p:outputLabel for="name" value="Name: " />
-                    <p:inputText id="name" value="#{UserController.User.name}" />
+                    <p:inputText id="name" value="#{userController.user.name}" />
                     <p:outputLabel for="desc" value="Description " />
-                    <p:inputNumber id="desc" value="#{UserController.User.desc}" />
-                    <h:commandButton value="Save" action="#{UserController.save}" />
+                    <p:inputNumber id="desc" value="#{userController.user.desc}" />
+                    <h:commandButton value="Save" action="#{userController.save}" />
                 </h:panelGrid>
             </p:panel>
         </h:form>
